@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398526109949" ignored="false" />
     <file path="/routes.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398526835140" ignored="false" />
-    <file path="/trackees_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398526724350" ignored="false" />
+    <file path="/trackees_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398527508360" ignored="false" />
     <file path="/index.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398526514993" ignored="false" />
     <file path="/application.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398527412675" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,19 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trackees_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="trackees_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/trackees_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="651" selection-end="651" vertical-scroll-proportion="0.64154786">
+            <state line="3" column="33" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08522727">
               <folding />
             </state>
           </provider>
@@ -67,9 +58,9 @@
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/trackees/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/trackees_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/trackees_controller.rb" />
       </list>
     </option>
   </component>
@@ -619,16 +610,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/trackees_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+        <state line="21" column="36" selection-start="651" selection-end="651" vertical-scroll-proportion="0.64154786">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/trackees_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="651" selection-end="651" vertical-scroll-proportion="0.64154786">
+        <state line="3" column="33" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08522727">
           <folding />
         </state>
       </provider>
