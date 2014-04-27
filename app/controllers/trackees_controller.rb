@@ -24,7 +24,12 @@ class TrackeesController < ApplicationController
   def show
 
     id = params[:id]
-    @trackee = Trackee.find(id)
+    if (@trackee = Trackee.find_by_id(id))
+
+    else
+      @trackee = Trackee.new
+      flash[:error] = "Oops! We can't find that person!"
+    end
 
   end
 
