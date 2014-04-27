@@ -1,10 +1,12 @@
 class TrackeesController < ApplicationController
 
+  #TODO profile page
   #TODO display flash messages
   #TODO add a pledge to a trackee
 
   def index
-    @trackees = Trackee.all
+
+    @trackees = Trackee.last(10).reverse
 
   end
 
@@ -13,9 +15,11 @@ class TrackeesController < ApplicationController
   end
 
   def create
+
     @trackee = Trackee.create!(params[:trackee])
     flash[:notice] = "#{@trackee.first_name} was created!"
     redirect_to trackees_path
+
   end
 
 end

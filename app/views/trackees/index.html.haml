@@ -1,3 +1,16 @@
 %div.container
   %h1 trackees
   = link_to 'Add new trackee', new_trackee_path
+
+  %table.table.table-striped.table-bordered.table-hover.table-collapsed
+    %thead
+      %tr
+        %th.table First
+        %th Last
+        %th Profile
+    %tbody
+      - @trackees.each do |trackee|
+        %tr
+          %td= trackee.first_name
+          %td= trackee.last_name
+          %td= link_to "View", trackee_path(trackee)
