@@ -1,6 +1,8 @@
 %div.container
   %h1 Create New Trackee
 
+  = render :partial => 'flash_display'
+
   = form_tag trackees_path do
     = label :trackee, :first_name, 'First Name'
     = text_field :trackee, 'first_name'

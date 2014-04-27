@@ -1,6 +1,6 @@
 class TrackeesController < ApplicationController
 
-  #TODO display flash messages
+  #TODO edit/update trackee
   #TODO add a pledge to a trackee
 
   def index

@@ -1,9 +1,7 @@
 %div.container
   %h1 trackees
 
-  - flash.each do |key, value|
-    %div{:class => (flash_class(key))}
-      = value
+  = render :partial => 'flash_display'
 
   %table.table.table-striped.table-bordered.table-hover
     %thead
