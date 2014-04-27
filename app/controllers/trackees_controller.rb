@@ -16,7 +16,7 @@ class TrackeesController < ApplicationController
   def create
 
     @trackee = Trackee.create!(params[:trackee])
-    flash[:notice] = "#{@trackee.first_name} #{@trackee.last_name} was created!"
+    flash[:success] = "#{@trackee.first_name} #{@trackee.last_name} was created!"
     redirect_to trackees_path
 
   end

@@ -1,11 +1,14 @@
 %div.container
   %h1 trackees
-  = link_to 'Add new trackee', new_trackee_path
 
-  %table.table.table-striped.table-bordered.table-hover.table-collapsed
+  - flash.each do |key, value|
+    %div{:class => (flash_class(key))}
+      = value
+
+  %table.table.table-striped.table-bordered.table-hover
     %thead
       %tr
-        %th.table First
+        %th First
         %th Last
         %th Profile
     %tbody
@@ -14,3 +17,5 @@
           %td= trackee.first_name
           %td= trackee.last_name
           %td= link_to "View", trackee_path(trackee)
+
+  = link_to 'Add new trackee', new_trackee_path
