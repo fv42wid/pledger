@@ -1,0 +1,5 @@
+%div.container
+  %h1 #{@trackee.first_name} #{@trackee.last_name}
+  %p
+    #{@trackee.description}
+  = link_to "Back to List", trackees_path

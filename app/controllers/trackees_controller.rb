@@ -1,6 +1,5 @@
 class TrackeesController < ApplicationController
 
-  #TODO profile page
   #TODO display flash messages
   #TODO add a pledge to a trackee
 
@@ -17,8 +16,15 @@ class TrackeesController < ApplicationController
   def create
 
     @trackee = Trackee.create!(params[:trackee])
-    flash[:notice] = "#{@trackee.first_name} was created!"
+    flash[:notice] = "#{@trackee.first_name} #{@trackee.last_name} was created!"
     redirect_to trackees_path
+
+  end
+
+  def show
+
+    id = params[:id]
+    @trackee = Trackee.find(id)
 
   end
 
