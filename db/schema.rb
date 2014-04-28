@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140426203032) do
+ActiveRecord::Schema.define(:version => 20140428012055) do
+
+  create_table "pledges", :force => true do |t|
+    t.string  "title"
+    t.text    "description"
+    t.text    "citation"
+    t.integer "trackee_id"
+  end
 
   create_table "trackees", :force => true do |t|
     t.string "first_name"

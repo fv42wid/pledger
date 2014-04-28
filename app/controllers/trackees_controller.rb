@@ -1,6 +1,6 @@
 class TrackeesController < ApplicationController
 
-  #TODO add a pledge to a trackee
+  #TODO create the pledge controller
 
   def index
 

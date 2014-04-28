@@ -2,7 +2,9 @@ Pledger::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  resources :trackees
+  resources :trackees do
+    resources :pledges
+  end
   root :to => redirect('/trackees')
 
   # Sample of regular route:
