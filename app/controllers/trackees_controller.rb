@@ -1,6 +1,5 @@
 class TrackeesController < ApplicationController
 
-  #TODO edit/update trackee
   #TODO add a pledge to a trackee
 
   def index
@@ -40,6 +39,16 @@ class TrackeesController < ApplicationController
         flash[:error] = "Oops! We can't find that person!"
         redirect_to trackees_path
       end
+
+    end
+
+    def update
+
+      id = params[:id]
+      @trackee = Trackee.find_by_id(id)
+      @trackee.update_attributes!(params[:trackee])
+      flash[:success] = "#{@trackee.first_name} #{@trackee.last_name} has been updated!"
+      redirect_to trackee_path(@trackee)
 
     end
 
