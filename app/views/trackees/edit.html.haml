@@ -2,3 +2,7 @@
   %h1 Edit
 
   = render :partial => 'layouts/flash_display'
+
+  = form_tag trackee_path, :method => 'put' do
+    = render :partial => 'trackee_form'
+    = submit_tag 'Save Changes'
