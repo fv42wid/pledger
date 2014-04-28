@@ -6,15 +6,16 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398526109949" ignored="false" />
     <file path="/routes.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398526835140" ignored="false" />
-    <file path="/trackees_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398627565764" ignored="false" />
+    <file path="/trackees_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646399456" ignored="false" />
     <file path="/index.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646114329" ignored="false" />
     <file path="/application.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398527412675" ignored="false" />
     <file path="/new.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646132861" ignored="false" />
     <file path="/20140426203032_create_trackees.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398544374379" ignored="false" />
     <file path="/trackee.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398547241198" ignored="false" />
     <file path="/application.css" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398612254543" ignored="false" />
-    <file path="/show.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646144617" ignored="false" />
+    <file path="/show.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646447152" ignored="false" />
     <file path="/application_helper.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398624316789" ignored="false" />
+    <file path="/edit.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646555164" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +38,25 @@
       <file leaf-file-name="trackees_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/trackees_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="27" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+            <state line="40" column="33" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trackees/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="45" selection-start="112" selection-end="112" vertical-scroll-proportion="0.08928572">
+            <state line="8" column="54" selection-start="244" selection-end="244" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/trackees/edit.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="2" selection-start="76" selection-end="76" vertical-scroll-proportion="0.1863354">
               <folding />
             </state>
           </provider>
@@ -71,10 +81,11 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/trackees/flash.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trackees/_flash_display.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/trackees_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/trackees/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trackees/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/trackees_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/trackees/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/trackees/edit.html.haml" />
       </list>
     </option>
   </component>
@@ -624,10 +635,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32616487" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3030303" sideWeight="0.672043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3030303" sideWeight="0.6738351" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -703,13 +714,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/trackees_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trackees/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="21" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" />
@@ -787,14 +791,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/trackees_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="27" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+        <state line="40" column="33" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trackees/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="45" selection-start="112" selection-end="112" vertical-scroll-proportion="0.08928572">
+        <state line="8" column="54" selection-start="244" selection-end="244" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/trackees/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="76" selection-end="76" vertical-scroll-proportion="0.1863354">
           <folding />
         </state>
       </provider>

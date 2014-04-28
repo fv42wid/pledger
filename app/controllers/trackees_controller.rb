@@ -31,6 +31,18 @@ class TrackeesController < ApplicationController
       flash[:error] = "Oops! We can't find that person!"
     end
 
+    def edit
+
+      id = params[:id]
+      if(@trackee = Trackee.find_by_id(id))
+
+      else
+        flash[:error] = "Oops! We can't find that person!"
+        redirect_to trackees_path
+      end
+
+    end
+
   end
 
 end
