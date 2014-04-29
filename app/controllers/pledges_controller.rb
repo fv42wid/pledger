@@ -2,6 +2,10 @@ class PledgesController < ApplicationController
 
   #TODO create pledge function
   #figure out how to add trackee id and then save
+  
+  #try this
+  #@order = @customer.orders.create(order_date: Time.now)
+  #http://guides.rubyonrails.org/association_basics.html
 
   def new
 
