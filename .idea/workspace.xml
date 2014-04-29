@@ -18,7 +18,7 @@
     <file path="/edit.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398647121544" ignored="false" />
     <file path="/20140428012055_add_pledges.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398648198933" ignored="false" />
     <file path="/pledge.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398648443378" ignored="false" />
-    <file path="/pledges_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398734724212" ignored="false" />
+    <file path="/pledges_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398735331095" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="pledges_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pledges_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.3409091">
+            <state line="3" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="0.08522727">
               <folding />
             </state>
           </provider>
@@ -844,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pledges_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.3409091">
+        <state line="3" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="0.08522727">
           <folding />
         </state>
       </provider>
