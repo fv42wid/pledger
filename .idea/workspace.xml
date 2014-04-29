@@ -9,7 +9,7 @@
     <file path="/trackees_controller.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398648567638" ignored="false" />
     <file path="/index.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398646114329" ignored="false" />
     <file path="/application.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398527412675" ignored="false" />
-    <file path="/new.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398734314058" ignored="false" />
+    <file path="/new.html.haml" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398734613075" ignored="false" />
     <file path="/20140426203032_create_trackees.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398544374379" ignored="false" />
     <file path="/trackee.rb" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398648489011" ignored="false" />
     <file path="/application.css" changelist="d6d2b80a-d2fc-439b-b484-f60f68118835" time="1398612254543" ignored="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pledges/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="373" selection-end="373" vertical-scroll-proportion="0.45824847">
+            <state line="7" column="37" selection-start="159" selection-end="159" vertical-scroll-proportion="0.20833333">
               <folding />
             </state>
           </provider>
@@ -84,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/trackees/flash.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trackees/_flash_display.html.haml" />
@@ -99,13 +98,14 @@
         <option value="$PROJECT_DIR$/app/controllers/trackees_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/trackees/show.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/pledges_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/pledges/_pledge_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/pledges/new.html.haml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="520" />
-    <option name="y" value="86" />
+    <option name="y" value="85" />
     <option name="width" value="778" />
     <option name="height" value="689" />
   </component>
@@ -667,7 +667,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="86" width="778" height="689" extended-state="0" />
+    <frame x="520" y="85" width="778" height="689" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -750,11 +750,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140426203032_create_trackees.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.3693182" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="16" selection-start="563" selection-end="563" vertical-scroll-proportion="0.5982906" />
@@ -849,9 +844,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pledges/_pledge_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="25" selection-end="223" vertical-scroll-proportion="0.030549899">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pledges/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="373" selection-end="373" vertical-scroll-proportion="0.45824847">
+        <state line="7" column="37" selection-start="159" selection-end="159" vertical-scroll-proportion="0.20833333">
           <folding />
         </state>
       </provider>
