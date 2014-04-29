@@ -1,0 +1,19 @@
+%div.container
+  %h1 Create Pledge
+
+  = render :partial => 'layouts/flash_display'
+
+  = form_tag trackee_pledges_path do
+
+    = label :pledge, 'Title'
+    = text_field :pledge, 'title'
+
+    = label :pledge, 'Description'
+    = text_area(:pledge, 'description', class: 'input-xxlarge', rows: '5')
+
+    = label :pledge, 'Citation'
+    = text_field :pledge, 'citation'
+    %br
+    = submit_tag 'Add Pledge'
+
+  = link_to "Back to Profile", trackee_path(@trackee)
