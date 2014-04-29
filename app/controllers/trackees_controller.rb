@@ -1,7 +1,5 @@
 class TrackeesController < ApplicationController
 
-  #TODO create the pledge controller
-
   def index
 
     @trackees = Trackee.last(10).reverse
